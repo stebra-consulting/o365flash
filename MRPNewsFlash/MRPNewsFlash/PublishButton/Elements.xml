@@ -25,7 +25,7 @@
       </CommandUIDefinitions>
       <CommandUIHandlers>
         <CommandUIHandler Command="Invoke_PublishButtonButtonRequest"
-                          CommandAction="http://ribbonflash.azurewebsites.net/Home/Publish?{StandardTokens}&amp;SPListItemId={SelectedItemId}&amp;SPListId={SelectedListId}"/>
+                          CommandAction="https://ribbonflash.azurewebsites.net/Home/Publish?{StandardTokens}&amp;SPListItemId={SelectedItemId}&amp;SPListId={SelectedListId}"/>
       </CommandUIHandlers>
     </CommandUIExtension >
   </CustomAction>
