@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="C:\Users\Felix\Source\Repos\newsFlash\MRPNewsFlash\MRPNewsFlashWeb\obj\Release\Package\PackageTmp" managedRuntimeVersion="v4.0" />
-  <setAcl path="C:\Users\Felix\Source\Repos\newsFlash\MRPNewsFlash\MRPNewsFlashWeb\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="C:\Users\Felix\Source\Repos\newsFlash\MRPNewsFlash\MRPNewsFlashWeb\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <IisApp path="C:\Users\Felix\Source\Repos\o365Flash\MRPNewsFlash\MRPNewsFlashWeb\obj\Release\Package\PackageTmp" managedRuntimeVersion="v4.0" />
+  <setAcl path="C:\Users\Felix\Source\Repos\o365Flash\MRPNewsFlash\MRPNewsFlashWeb\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\Felix\Source\Repos\o365Flash\MRPNewsFlash\MRPNewsFlashWeb\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
 </sitemanifest>

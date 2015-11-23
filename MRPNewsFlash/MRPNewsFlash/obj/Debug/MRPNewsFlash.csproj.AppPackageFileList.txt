@@ -1,1 +1,1 @@
-C:\Users\Felix\Source\Repos\newsFlash\MRPNewsFlash\MRPNewsFlash\bin\Debug\app.publish\1.0.0.4\MRPNewsFlash.app
+C:\Users\Felix\Source\Repos\o365Flash\MRPNewsFlash\MRPNewsFlash\bin\Debug\app.publish\1.0.0.8\MRPNewsFlash.app
