@@ -228,9 +228,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <None Include="Properties\PublishProfiles\MRPAppNewsFlash - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\MRPAppNewsFlash - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\RibbonFlash.pubxml" />
+    <None Include="Properties\PublishProfiles\RibbonFlash - FTP %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\RibbonFlash - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\RibbonFlash - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\RibbonFlash - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
