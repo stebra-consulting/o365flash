@@ -1,0 +1,10 @@
+﻿@model IEnumerable<MRPNewsFlashWeb.Models.StebraEntity>
+
+@foreach (var stebra in Model)
+{
+    <div class="jumbotron">
+        <h4>@stebra.RowKey</h4>
+        <p><i>@Html.Raw(stebra.Article)</i></p>
+        <p>@Html.Raw(stebra.Body)</p>
+    </div>
+}

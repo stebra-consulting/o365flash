@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="MRPAppNewsFlash" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Felix\\Source\\Repos\\newsFlash\\MRPNewsFlash\\MRPNewsFlashWeb\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Felix\\Source\\Repos\\newsFlash\\MRPNewsFlash\\MRPNewsFlashWeb\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ClientId" description="Value for ClientId here." value="20b62423-8bc3-4e2f-ba86-86e679e9b318" tags="applicationSettings">
+    <parameterEntry kind="XmlFile" scope="web.config$" match="/configuration/appSettings/add[@key='ClientId']/@value" />
+  </parameter>
+  <parameter name="ClientSecret" description="Value for ClientSecret here." value="HfnZibwlFNiOeVfXsD385BSJ8yJOSgnsShc5cezKqoU=" tags="applicationSettings">
+    <parameterEntry kind="XmlFile" scope="web.config$" match="/configuration/appSettings/add[@key='ClientSecret']/@value" />
+  </parameter>
+</parameters>
