@@ -1,1 +1,1 @@
-http://ribbonflash.azurewebsites.net
+https://ribbonflash.azurewebsites.net
