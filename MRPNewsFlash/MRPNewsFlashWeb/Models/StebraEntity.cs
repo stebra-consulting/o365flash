@@ -20,7 +20,14 @@ namespace MRPNewsFlashWeb.Models
             this.Description = NewsDescription;
             this.Article = NewsArticle;
             this.Body = NewsBody;
-            this.Date = NewsDate; //"dd/mm/yyyy"
+
+            //removing hours from datestamp
+            DateTime dateWithHours = Convert.ToDateTime(NewsDate); // 3/13/2015 7:00:00 AM
+
+            string dateNoHourse = dateWithHours.ToString("MM:dd:yyyy"); // 3:13:2015
+
+            this.Date = dateNoHourse.Replace(':', '/'); // 3/13/2015
+            //removing hours from datestamp
 
             string mmddyyyy_hhmmss = NewsDate;
             string mmddyyyy = mmddyyyy_hhmmss.Split(' ')[0];
