@@ -228,6 +228,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\o365Flash - FTP %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\o365Flash - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\o365Flash - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\o365Flash - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\RibbonFlash - FTP %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\RibbonFlash - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\RibbonFlash - Web Deploy %282%29.pubxml" />
@@ -245,7 +249,9 @@
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\spcontext.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

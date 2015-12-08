@@ -1,1 +1,1 @@
-https://ribbonflash.azurewebsites.net
+https://localhost:44300/
