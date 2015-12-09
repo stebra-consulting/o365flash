@@ -9,6 +9,7 @@
     <NameOfLastUsedPublishProfile>o365Flash - Web Deploy %282%29</NameOfLastUsedPublishProfile>
     <ProfileToSelectInPublishDialog>
     </ProfileToSelectInPublishDialog>
+    <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
