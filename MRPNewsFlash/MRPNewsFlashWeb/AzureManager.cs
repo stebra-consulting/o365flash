@@ -22,7 +22,7 @@ namespace MRPNewsFlashWeb
                 CloudConfigurationManager.GetSetting("StorageConnectionString"));
 
 
-        //BLOB SPECIFIC========================================================================= comment
+        //BLOB SPECIFIC=========================================================================
         //get Blob -client
         public static CloudBlobClient blobClient = StorageAccount.CreateCloudBlobClient();
 
