@@ -3,13 +3,12 @@
 
 #Custom Section
 
-ExternalWebsite\ExternalWebsite2\ExternalWebsite2
+O365II\MRPNewsFlash\MRPNewsFlashWeb
 *.config
 
-ExternalWebsite\ExternalWebsite2\ExternalWebsite2\
+O365II\MRPNewsFlash\MRPNewsFlashWeb
 bin/
 obj/
-
 
 # User-specific files
 *.suo
