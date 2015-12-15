@@ -12,7 +12,8 @@ namespace MRPNewsFlashWeb
         //It is required to set this property in order to use SPManager
         public static HttpContextBase CurrentHttpContext { get; set; }
 
-        public static ListItemCollection GetItemsFromGuid(string listGuid) {
+        public static ListItemCollection GetItemsFromGuid(string listGuid)
+        {
 
             ListItemCollection items = null;
 
@@ -73,7 +74,7 @@ namespace MRPNewsFlashWeb
                     items = list.GetItems(camlQuery);
 
                     clientContext.Load(items);
-                    clientContext.ExecuteQuery(); 
+                    clientContext.ExecuteQuery();
                 }
             }
             return items;
@@ -107,6 +108,12 @@ namespace MRPNewsFlashWeb
                     clientContext.Load(photoCollection);
 
                     clientContext.ExecuteQuery();
+
+                    if (photoCollection.LongCount() == 0)
+                    {
+                        //the image is public
+                        return null;
+                    }
 
                     ListItem item = photoCollection.ElementAt(0);
 
