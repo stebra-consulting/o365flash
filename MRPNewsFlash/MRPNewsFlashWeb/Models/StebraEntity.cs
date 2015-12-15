@@ -46,14 +46,25 @@ namespace MRPNewsFlashWeb.Models
             int yyyymmdd = int.Parse(yyyy + mm + dd);
             this.IntDate = yyyymmdd;//int Date property as yyyymmdd for sort/query against list of this object
 
+            firstImage(Body + Article);
+
         }
 
-        public void firstImage(string imageUrl)
+        public void firstImage(string bodyAndArticle)
         {
 
             if (this.Image == "none")
             {
-                this.Image = imageUrl;
+                string[] parts = bodyAndArticle.Split(' ');//split the string into pieces to find the src
+                foreach (string part in parts)
+                {
+                    if (part.Contains("src"))//check for src
+                    {
+                        string[] partsOfSrc = part.Split('"');
+                        this.Image = partsOfSrc[1];
+                        break;
+                    }
+                }
             }
         }
 
